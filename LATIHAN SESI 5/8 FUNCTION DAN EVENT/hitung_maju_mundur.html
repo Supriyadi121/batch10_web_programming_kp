@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menghitung Maju dan Mundur</title>
+  </head>
+  <body>
+    <h1>Hitung mundur dan maju</h1>
+  </body>
+  <!--buatlah dua buah button dengan diberikan identitas onclick untuk function-->
+  <button onclick="mundur()">Hitung Mundur</button>
+  <button onclick="maju()">Hitung Maju</button>
+<!--buat juga id untuk menentukan hasil-->
+  <h1 id="hasil"></h1>
+  <script>
+    //membuat variabel baru 
+    var angka = 0;
+    //variabel hasil mengambil dari id hasil default yaitu 10
+    var hasil = document.getElementById("hasil");
+//buat fungsi untuk menhitung mundur yang dimana hasil default 10 dalam html sama dengan angka di kurangi satu
+//menggunakan --
+    function mundur() {
+      hasil.innerHTML = angka;
+      angka --;
+    }
+//buat fungsi untuk menhitung maju yang dimana hasil default 10 dalam html sama dengan angka di tambahkan satu
+//menggunakan ++
+    function maju() {
+      hasil.innerHTML = angka;
+      angka ++;
+    }
+  </script>
+</html>

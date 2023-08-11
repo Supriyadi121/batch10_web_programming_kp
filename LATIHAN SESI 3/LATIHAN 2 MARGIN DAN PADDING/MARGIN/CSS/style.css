@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+
+.box{
+    background-color: rgb(240, 4, 4);
+   height: 200px;
+   width: 300px;
+   margin: 20px;
+}
+
+.box-2{
+    background-color: rgb(231, 136, 27);
+    width: 600px;
+    height: 100px;
+    margin-left: 70px;
+}

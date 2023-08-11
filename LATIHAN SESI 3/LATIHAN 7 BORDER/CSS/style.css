@@ -1,0 +1,41 @@
+#Garis_1 {
+    border-style: solid;
+    border-color: red;
+}
+
+#Garis_2 {
+    border-style: dotted;
+    border-color: green;
+}
+
+#Garis_3 {
+    border-style: dashed;
+    border-color: blue;
+}
+
+#Garis_4 {
+    border-style: double;
+    border-color: cyan;
+
+}
+
+#Garis_5 {
+    border-style: groove;
+    border-color: magenta;
+
+}
+
+#Garis_6 {
+    border-style: inset;
+    border-color: yellow;
+}
+
+#Garis_7 {
+    border-style: outset;
+    border-color: black;
+
+}
+
+#Garis_8 {
+    border-style: ridge;
+}

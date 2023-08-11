@@ -1,0 +1,35 @@
+body{
+    background-color: teal;
+}
+.header {
+    display: flex;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+img{
+    margin-right: 30%;
+}
+.contact {
+    border:  3px solid red;
+    justify-content: space-between;
+    text-align: center;
+}
+.content{
+    border: 3px solid red;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.content1{
+    border: 3px solid red;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ 
+}
+

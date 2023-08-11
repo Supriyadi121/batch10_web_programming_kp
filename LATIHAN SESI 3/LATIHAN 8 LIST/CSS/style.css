@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+ul.transfortasi{
+    list-style-type: square;
+}
+
+ul.lokasi{
+    list-style-type: circle;
+
+}
+
+ul.werna{
+    list-style-type: upper-roman;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Event pada Java Script</title>
+</head>
+<body>
+    <h1>Mengenal Event Pada Java Script </h1>
+    <h2>www.Hacktiv8.com</h2>
+<!--disini kita akan memberikan event pada fungsi tombol-->
+<!--buat lah sebuah tombol dengan tag button dan beri identitas pada onclik disini contohnya adalah "coba"-->
+<button onclick="coba ()">KLIK SAYA</button>
+
+<!--buat id hasil untuk menentukan-->
+<div id="hasil"></div>
+
+<script>
+    //lalu buatlah function dari si tombol yang mempunyai identitas "coba"
+     function coba(){
+        //oke function sudah di buat selanjutnya tampilkan hasil dengan kode di bawah seperti biasa 
+        document.getElementById("hasil").innerHTML = "<h3> Nama saya adalah FOX </h3>";
+     }
+</script>
+</body>
+</html>

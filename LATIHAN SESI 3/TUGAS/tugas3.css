@@ -1,0 +1,155 @@
+html {
+  background-color: rgb(231, 242, 251);
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+.section1 {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.table-profile {
+  /* border: solid 4px wheat; */
+  width: 100vw;
+
+}
+
+.td-1,
+.td-2,
+.td-3 {
+  border: solid 4px transparent;
+}
+
+.td-1 {
+  width: 15vw;
+}
+
+.td-2 {
+  width: 15vw;
+}
+
+.profile-photo {
+  width: 10vw;
+  height: 10vw;
+  padding: 10%;
+  border: solid 4px orange;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+img {
+  /* border-radius: 50%; */
+  width: 10vw;
+  height: 10vw;
+  position: relative;
+  left: 0%;
+  top: 0%;
+
+}
+
+.profile-text {
+
+  position: relative;
+  margin: 0;
+
+
+}
+
+#profile {
+
+  padding: 20px 20px;
+  overflow: hidden;
+  width: 100vw;
+  height: auto;
+}
+
+.detail {
+
+  position: relative;
+  margin: 0;
+
+
+}
+
+.kontak {
+  background-color: blue;
+  color: white;
+  border: solid 4px blue;
+  border-radius: 12px;
+  height: 40px;
+}
+
+.resume {
+  background-color: transparent;
+  color: green;
+  border: solid 3px green;
+  border-radius: 12px;
+  height: 40px;
+
+}
+
+.resume:hover {
+  color: white;
+  background-color: green;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+
+.kontak:hover {
+  color: white;
+  background-color: blue;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}

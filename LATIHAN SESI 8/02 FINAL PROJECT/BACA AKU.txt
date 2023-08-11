@@ -1,0 +1,11 @@
+berhubungan untuk project pinal saya akan selalu di update di waktu senggang
+untuk pemahaman juga alhamdulillah tidak sia sia saya belajar di HacktiV 8
+
+niatnya di halaman index saya akan memasukan link ref kepada setiap bagian bagian season
+sehingga nanti akan di design semenarik mungkin, karna waktu yang tidak mendukung setelah masuk ke 
+indek silahkan klik "home"
+
+final project saya menggunakan Firebase 
+berikut link firebase = supriyadi-a3fa6.web.app
+
+berikut link github = https://github.com/Supriyadi121/batch10_web_programming_kp

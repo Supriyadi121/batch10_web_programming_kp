@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan menghapus elment dengan DOM api</title>
+</head>
+<body>
+    <!--disini kita akan coba buat elmen html dengan menggunakan id-->
+    <h2 id="contoh"> Hallo world</h2>
+    <h2 id="contoh1"> Hallo Bro</h2>
+
+    <script>
+        //pilihlah elmen berdasarkan id 
+        var h2 = document.getElementById('contoh');
+        // disini elmen dengan id contoh sudah kita pilih berdasarkan id
+        //selanjutnya kita akan menhapus dari document html dengan code
+        h2.remove();
+        //maka secara otomatis teks atau elment dalam h1 yang mempunyai id contoh
+        //serta memiliki text value hallo world akan hilang
+        //====================================================================
+        //berikan consol supaya kita tahu
+        console.log("elmen h2 dengan tulisan hello world sudah hilang");
+        console.log(h2);
+    </script>
+</body>
+</html>
